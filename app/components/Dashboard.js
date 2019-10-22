@@ -18,10 +18,7 @@ import { api } from '../utils/api';
 
 export default class App extends Component {
   componentDidMount() {
-    // api.browseDetails()
-    // .then((res) => {
-    //   console.log(res);
-    // })
+   
   }
   render() {
     const { navigate } = this.props.navigation;
@@ -33,7 +30,7 @@ export default class App extends Component {
               <Text style={styles.welcomeText}>WELCOME TO DRIVE</Text>
             </View>
             <TouchableHighlight
-              onPress={() => {console.log('hiiii')}}
+              onPress={() => navigate('DriveDetails')}
               style={styles.driveButton}
               underlayColor={"#00aeef"}
             >
