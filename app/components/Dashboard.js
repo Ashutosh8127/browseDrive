@@ -24,6 +24,7 @@ export default class App extends Component {
     // })
   }
   render() {
+    const { navigate } = this.props.navigation;
     return (
       <React.Fragment>
         <MyStatusBar backgroundColor={"#00aeef"} barStyle="light-content" />
