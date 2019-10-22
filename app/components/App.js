@@ -29,14 +29,14 @@ export default class App extends Component {
         <MyStatusBar backgroundColor={"#00aeef"} barStyle="light-content" />
           <View style={styles.container}>
             <View style={styles.welcomeContainer}>
-              <Text style={styles.welcomeText}>Welcome To Drive</Text>
+              <Text style={styles.welcomeText}>WELCOME TO DRIVE</Text>
             </View>
             <TouchableHighlight
               onPress={() => {console.log('hiiii')}}
               style={styles.driveButton}
               underlayColor={"#00aeef"}
             >
-              <Text style={styles.driveButtonText}>Check Drive</Text>
+              <Text style={styles.driveButtonText}>Check Drive Content</Text>
             </TouchableHighlight>
           </View>
       </React.Fragment>

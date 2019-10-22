@@ -17,4 +17,8 @@ const styles = StyleSheet.create({
     }
 })
 
+MyStatusBar.defaultProps = {
+    backgroundColor: "#00aeef",
+    barStyle: "light-content"
+}
 export default MyStatusBar;
